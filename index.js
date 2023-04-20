@@ -28,7 +28,6 @@ const translatedText = text.replace(/\b\w+\b/g, (match) => {
 });
 console.log(replacedWords);
 
-
 // write output in t8.shakespeare.translated.txt files
 fs.writeFileSync("./t8.shakespeare.translated.txt", translatedText);
 
@@ -52,5 +51,5 @@ fs.writeFileSync(
 
 fs.writeFileSync(
   "./githublink.txt",
-  "https://github.com/yourusername/your-repo-name"
+  "https://github.com/way2mayank/exeter-coding-challenge.git"
 );
